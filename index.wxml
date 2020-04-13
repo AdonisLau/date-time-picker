@@ -1,0 +1,11 @@
+<picker
+  mode="multiSelector"
+  range="{{ ranges }}"
+  value="{{ datetime }}"
+  disabled="{{ disabled }}"
+  header-text="{{ headerText }}"
+  bindcolumnchange="handleColumnChange"
+  bindchange="handleChange"
+  bindcancel="handleCancel">
+  <slot></slot>
+</picker>
