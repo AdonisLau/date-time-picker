@@ -23,7 +23,7 @@
 | 属性        | 类型    |  说明  |
 | --------   | -----:   | :----: |
 | header-text        | string      |   选择器的标题，仅安卓可用    |
-| disabled        | boolean   format   |   是否禁用    |
+| disabled        | boolean   |   是否禁用    |
 | value        | number, string      |   表示选中的日期，格式为"yyyy-MM-dd hh:mm:ss"，或者时间戳    |
 | format        | string     |   返回的格式化后的值，格式为"yyyy-MM-dd hh:mm:ss"，或者timestamp    |
 | start        | string     |   表示有效日期范围的开始，格式为"yyyy-MM-dd hh:mm:ss"    |
