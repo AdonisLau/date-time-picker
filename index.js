@@ -65,6 +65,11 @@ Component({
 
   observers: {
     value(value) {
+      // attached会执行
+      if (!this._datetime_) {
+        return;
+      }
+
       let datetime = genDateTime(value);
 
       this._datetime_ = datetime.slice(0, this._datetime_.length);
